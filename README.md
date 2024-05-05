@@ -11,4 +11,6 @@ This device has Python v3.9 and Flask preinstalled, so I skipped the entire requ
 
 3. Change/add remote host IP to ansible/inventory.ini
 
-4. Run ./scripts/launch.sh
+4. In scripts/launch.sh change host user if it's not admin
+
+5. Run ./scripts/launch.sh
