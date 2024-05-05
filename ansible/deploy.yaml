@@ -1,0 +1,8 @@
+- name: Deploy
+  hosts: myhosts
+  tasks:
+    - name: Copy
+      copy:
+        src: ../src/
+        dest: lab-api/src
+

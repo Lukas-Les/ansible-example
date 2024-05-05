@@ -1,0 +1,14 @@
+[Unit]
+Description=Flask Application
+After=network.target
+
+[Service]
+User=admin       
+Group=admin    
+WorkingDirectory=/home/admin/lab-api/src  
+ExecStart=/usr/bin/python app.py
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+
