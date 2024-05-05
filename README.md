@@ -9,6 +9,6 @@ This device has Python v3.9 and Flask preinstalled, so I skipped the entire requ
 
 2. Prepare remote host, or VM. Make sure you can access it through ssh.
 
-3.Change/add remote host IP to ansible/inventory.ini
+3. Change/add remote host IP to ansible/inventory.ini
 
 4. Run ./scripts/launch.sh
